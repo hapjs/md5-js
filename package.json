@@ -1,6 +1,6 @@
 {
   "name": "md-five",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "md5 cli tools",
   "main": "index.js",
   "scripts": {

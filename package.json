@@ -1,8 +1,8 @@
 {
   "name": "md5-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "md5 library and cli tools",
-  "main": "index.js",
+  "main": "md5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,11 +13,7 @@
   "bin": {
     "md5": "bin/cli.js"
   },
-  "dependencies": {
-    "charenc": "~0.0.1",
-    "crypt": "~0.0.1",
-    "is-buffer": "~1.1.1"
-  },
+  "dependencies": {},
   "keywords": [
     "md5"
   ],
@@ -26,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/hapjs/md5-js/issues"
   },
-  "homepage": "https://github.com/hapjs/md5-js#readme"
+  "homepage": "https://github.com/hapjs/md5-js#readme",
+  "devDependencies": {
+    "rollup": "^0.25.8",
+    "uglify-js": "^2.7.0"
+  }
 }

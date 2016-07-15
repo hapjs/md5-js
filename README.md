@@ -2,29 +2,39 @@
 
 md5 library and cli tools for javascript
 
-## Installation
+## CLI Installation
 
 ```
-npm i -g md-file
+npm i -g md5-js
 ```
 
-## Usage1
+## CLI Usage
 
-```js
+```
 md5 example.txt
 ```
-
-## Usage2
 
 ```js
 md5 "hello world"
 ```
 
-## Usage3
+## Script Usage
+
+```html
+<script src="md5-min.js"></script>
+<script>
+    var hash = md5('hellow world');
+    alert(hash);
+</script>
+```
+
+## Node.js Usage
 
 ```js
 var fs = require('fs');
 var md5 = require('md5-js');
+
+console.log(md5('hellow world'));
 
 fs.readFile('example.txt', function(err, buf) {
   console.log(md5(buf));

@@ -3,7 +3,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var md5 = require('../index.js');
+var md5 = require('../md5.js');
 
 var target = process.argv[2];
 var pathToTarget = target;

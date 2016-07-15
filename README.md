@@ -1,4 +1,4 @@
-# md-five
+# md5-js
 
 md5 library and cli tools for javascript
 

@@ -1,14 +1,14 @@
 {
-  "name": "md-five",
-  "version": "0.0.4",
-  "description": "md5 cli tools",
+  "name": "md5-js",
+  "version": "0.0.1",
+  "description": "md5 library and cli tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hapjs/md-five.git"
+    "url": "git+https://github.com/hapjs/md5-js.git"
   },
   "bin": {
     "md5": "bin/cli.js"
@@ -24,7 +24,7 @@
   "author": "hapjs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hapjs/md-five/issues"
+    "url": "https://github.com/hapjs/md5-js/issues"
   },
-  "homepage": "https://github.com/hapjs/md-five#readme"
+  "homepage": "https://github.com/hapjs/md5-js#readme"
 }

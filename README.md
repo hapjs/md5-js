@@ -1,6 +1,6 @@
 # md-five
 
-a cli tools for hashing messages with MD5.
+md5 library and cli tools for javascript
 
 ## Installation
 
@@ -24,7 +24,7 @@ md5 "hello world"
 
 ```js
 var fs = require('fs');
-var md5 = require('md-five');
+var md5 = require('md5-js');
 
 fs.readFile('example.txt', function(err, buf) {
   console.log(md5(buf));
